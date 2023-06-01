@@ -1,10 +1,12 @@
 const axios = require('axios');
 
-// copy-paste your URL provided in your Alchemy.com dashboard
-const ALCHEMY_URL = "";
-const address = "";
+require('dotenv').config();
 
-axios.post(ALCHEMY_URL, {
+// copy-paste your URL provided in your Alchemy.com dashboard
+const alchemy = process.env.ALCHEMY_URL;
+const address = process.env.WALLET_ADDRESS;
+
+axios.post(alchemy, {
   jsonrpc: "2.0",
   id: 1,
   method: "eth_getBalance",
