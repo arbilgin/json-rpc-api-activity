@@ -6,4 +6,4 @@
 
 - Change ALCHEMY_URL for different networks.
 
-- Check https://ethereum.org/en/developers/docs/apis/json-rpc/#eth_getbalance for other methods.
+- Check https://ethereum.org/en/developers/docs/apis/json-rpc/ for other methods.
