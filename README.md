@@ -1,6 +1,6 @@
 # json-rpc-api-activity
 
-- Axios project to send json-rpc requests to networks.
+- Axios project to send json-rpc requests to blockchain networks.
 
 - Install npm and axios.
 
